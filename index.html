@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Crystal Game</title>
-  
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<html lang ="en">
+    <head>
+        <meta charset= "UTF-8">
+        <title>Crystal Collector</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-</head>
-<body>
-
-  <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-
-  <!-- Note that this div is now empty. We will fill it dynamically -->
-  <div id="crystals">
-  </div>
-
-  </body>
-  <script src="assets/javascript/game.js"></script>
-  </html>
+    </head>
+    <body> 
+        <div> Wins: <span id ="Win"></span></div>
+        <div> Losses: <span id = "Lost"></span></div>
+        <div>  <span id = "result"></span></div>
+        <div>  <span id = "currentScore"></span></div>
+        <div id="crystals"> </div>
+     </body>
+    <script type= "text/javascript" src="javascript/game.js"></script>
+</html>
